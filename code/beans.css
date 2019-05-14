@@ -1,0 +1,176 @@
+/****Base Styles****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Grid*/
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/**Header**/
+
+header {
+    height: 110px;
+    border-bottom: 3px solid #77a466;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 38px 0;
+    margin: 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    /*word-spacing: 25px;*/
+    padding: 46px 0px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    text-transform: uppercase;
+    /*text-decoration: none;*/
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+/**About**/
+
+#about, #misc {
+    margin: 0 auto;
+    clear: both;
+}
+
+.image, .title {
+    height: auto;
+    float: left;
+}
+
+.image img {
+    border-bottom: 3px solid #77a466;
+}
+
+.title h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 5px 0;
+    font-size: 18px;
+    line-height: 23px;
+    color: #77a466;
+}
+
+.title p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/**Misc Section**/
+
+
+.section-one, .section-two, .section-three {
+    width: 399px;
+    float: left;
+    height: auto;
+    border-top: 1px solid #dedbdc;
+}
+
+.section-one h4 {
+    padding: 10px 0;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-two {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+#reviews {
+    padding: 10px 30px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contact {
+    padding: 10px 30px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    /*padding: 10px 0;*/
+    color: #77a466;
+    text-transform: uppercase;
+    /*font-size: 16px;*/
+}
+
+.section-two p {
+    color: #333;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0 15px;
+}
+
+.section-three p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 15px;
+}
+
+/**Footer*/
+
+footer {
+    clear: both;
+    text-align: center;
+    border-top: 3px ridge #dedbdc;
+    margin: 0 auto;
+    height: 50px;
+}
+
+footer h4 {
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer h4 span {
+    font-family: Meie, cursive;
+    color: #77a466;
+    text-transform: lowercase;
+}
